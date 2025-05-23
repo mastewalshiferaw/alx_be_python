@@ -1,9 +1,9 @@
-int number1 = 10
-int number2 = 5
-int sum=nuumber1+number2
-int difference = nuumber2-number1
-int multiplication = number1*number2
-print("Addition of " + number1 + "and" + number2 +"is" +sum)
-print("Subtraction of " + number1 + "and" + number2 +"is" + difference)
-print("Multiplication of "+number1 + "and" + number2 +"is" + multiplication)
+number1 = 10
+number2 = 5
+sum=nuumber1+number2
+difference = nuumber2-number1
+multiplication = number1*number2
+print("Addition of " + str(number1) + " and " + str(number2) +" is " +str(sum))
+print("Subtraction of " + str(number1) + " and " + str(number2) +" is " + str(difference))
+print("Multiplication of "+str(number1) + " and " + str(number2) +" is " + str(multiplication))
  
