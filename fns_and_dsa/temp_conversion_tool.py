@@ -19,5 +19,5 @@ elif ist  == 'f':
   fah = convert_to_celsius(choice)
   print(f"{choice:.1f}°F is {fah:.1f}°C")
 else:
-  print("Invalid temperature. Please enter a numeric value")
+  print("Invalid temperature. Please enter a numeric value.")
 
