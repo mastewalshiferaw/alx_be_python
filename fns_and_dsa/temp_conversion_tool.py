@@ -5,15 +5,15 @@ def convert_to_celsius(fahrenheit):
   return (fahrenheit-32)*FAHRENHEIT_TO_CELSIUS_FACTOR
   
 def convert_to_fahrenheit(celsius):
-  return 32 + CELSIUS_TO_FAHRENHEIT_FACTOR*celsius 
+  return (celsius * CELSIUS_TO_FAHRENHEIT_FACTOR) + 32
   
 
 choice = float(input("Enter the temperature to convert: "))
 ist = input("Is this temerature in Celsius or Fahrenheit? (c/f): ").lower()
 
 if ist == 'c':
-  sum = convert_to_fahrenheit(choice)
-  print(f"{choice:.1f}°C is {sum:.1f}°F")
+  result = convert_to_fahrenheit(choice)
+  print(f"{choice:.1f}°C is {result:.1f}°F")
 elif ist  == 'f':
   fah = convert_to_celsius(choice)
   print(f"{choice:.1f}°F is {fah:.1f}°C")
