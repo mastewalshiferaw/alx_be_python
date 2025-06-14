@@ -2,8 +2,8 @@ def safe_divide(numerator, denominator):
   try:
     result = float(numerator)/float(denominator)
   except ValueError:
-    if float(numerator) & float(denominator) == str:
-      return "Error: Please enter numeric values only."
+    
+    return "Error: Please enter numeric values only."
 
   except ZeroDivisionError:
     
