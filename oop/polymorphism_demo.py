@@ -12,7 +12,7 @@ class Rectangle(Shape):
     return length * width
   
 class Circle(Shape):
-  def __init__(self):
+  def __init__(self, radius):
     super().__init__()
     self.radius = radius
     
