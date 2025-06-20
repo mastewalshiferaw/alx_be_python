@@ -1,3 +1,4 @@
+import math
 class Shape:
   def area (self):
 
@@ -9,6 +10,3 @@ class Rectangle(Shape):
 class Circle (Shape):
   def area(self, radius):
     return math.pi * radius**2
-  
-
-    
